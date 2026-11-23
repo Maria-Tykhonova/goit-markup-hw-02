@@ -6,18 +6,36 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
+        display: flex;
+        align-items: center;
+        margin-right: 76px;
+}
+
+* {
+        box-sizing: border-box;
 }
 
 .logo-accent {
         color: #4d5ae5;
 }
 
+.nav-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+}
+
 .nav-link {
+        display: block;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
+        align-items: center;
 }
 
 .nav-link:hover,
@@ -27,6 +45,16 @@
 
 .address {
         font-style: normal;
+        display: flex;
+}
+
+
+.address-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
 }
 
 .address-link {
@@ -39,4 +67,19 @@
 .address-link:hover,
 .address-link:focus {
         color: #404bbf;
+}
+
+.header {
+        border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.header-nav {
+        display: flex;
+        align-items: center;
 }

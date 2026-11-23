@@ -15,7 +15,9 @@ a {
 
 ul,
 ol {
-    list-style: none;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 h1,
@@ -25,11 +27,11 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+margin: 0;
 }
 
 img {
-    display: block;
+display: block;
 }
 
 button {
@@ -38,4 +40,27 @@ button {
 
 address {
     font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+max-width: 1158px;
+}  
+
+.sc-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
+}
+
+section {
+    padding: 120px 0;
 }
